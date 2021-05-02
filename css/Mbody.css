@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap");
+body {
+  overflow: hidden;
+}
+
+#Mbody {
+  width: 100%;
+  height: 500%;
+}
+
+.size {
+  width: 100%;
+  height: 20%;
+}
+
+.size2 {
+  padding: 100px 0px;
+  box-sizing: border-box;
+}
+#contact{
+  height: 10%;
+}
+#contact {
+  background: #ffe618;
+}
+
+.navbars {
+  position: fixed;
+  top: 2%;
+  left: 5%;
+  width: auto;
+  height: auto;
+  z-index: 4;
+  cursor: pointer;
+}
+
+.navbar {
+  display: block;
+  width: 50px;
+  height: 6px;
+  background: #252525;
+  margin: 4px 0px;
+  border-radius: 10px;
+}
+
+.navbars:hover .navbar2 {
+  width: 40px;
+  transition: ease all .2s;
+}
+.navgnb {
+  position: fixed;
+  top: 0px;
+  left: -500px;
+  width: 385px;
+  height: 100%;
+  background: #fff;
+  z-index: 5;
+}
+.navgnb ul{
+  width: 90%;
+  height: 90%;
+  margin: 50px auto;
+}
+.navgnb ul h1{
+  line-height: 150px;
+  border-bottom: 2px solid #ddd;
+  color: #454545;
+  font-family: "Dosis", sans-serif;
+}
+.navgnb ul li{
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  margin: 20px 0px;
+  border-bottom: 2px solid #ddd;
+}
+.navgnb ul li a{
+  line-height: 105px;
+  font-size: 30px;
+  color: #454545;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+}
+.nav_box{position:relative;}
+.navgnb .closeBox{
+  width:25px;
+  height: 25px;
+  position: absolute;
+  top:65px;
+  left:90%;
+  cursor: pointer;
+}
+.navgnb .closeBox .close{
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width:25px;
+  height: 3px;
+  background:#454545;
+  border-radius: 20px;
+}
+.navgnb .closeBox .close.Cbar1{
+  transform: rotate(45deg);
+}
+.navgnb .closeBox .close.Cbar2{
+  transform: rotate(-45deg);
+}

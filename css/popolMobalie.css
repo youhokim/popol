@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@media only screen and (max-width:767px) {
+
+  /*main 시작*/
+  .FBOX {
+    justify-self: stretch;
+  }
+
+  .FBOX.one {
+    width: 100%;
+  }
+
+  .FBOX.two {
+    display: none;
+  }
+
+  .Msection {
+    width: 100%;
+  }
+
+  /*skill 시작*/
+  .chart {
+    width: 16%;
+    height: 50%;
+  }
+
+  span.center p {
+    margin-top: 5px;
+  }
+
+  span.center {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .Ssection.sec2 {
+    flex-wrap: wrap-reverse;
+  }
+
+  .Ssection.sec2 .StextBOX {
+    width: 100%;
+    height: 50%;
+    margin-left: 0px;
+  }
+
+  .Ssection.sec2 .SimgBOX {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,70 @@
+@charset "urf-8";
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap");
+.Ccontetnt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Ctitle{
+    width: 100%;
+    height: 20%;
+    text-align:center;
+    font-family: "Dosis", sans-serif;
+}
+.Ctitle h1{
+    font-size: 50px;
+}
+.Csection{
+    width: 100%;
+    height: 35%;
+}
+.sec1 .CtextBox{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Dosis", sans-serif;
+    
+    font-weight: bold;
+}
+.sec1 .CtextBox .text1{
+    width: 100%;
+    height: 30%;    
+    font-size: 26px;
+}
+.sec1 .CtextBox .text2{
+    width: 100%;
+    height: 60%;
+    font-size: 20px;
+    line-height: 37px;
+}
+.sec2{
+    margin-top: 50px;
+}
+.sec2 .CimgBox{
+    width: 100%;
+    height: 50%;
+    display:flex;
+    justify-content:center; 
+}
+.sec2 .CimgBox img{
+    width: 67px;
+    height: 46px;
+    margin-right: 70px;
+}
+.sec2 .CimgBox .imgtext{
+    width:170px;
+    line-height: 50px;
+    font-family: "Dosis", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+@media only screen and (max-width:555px){
+    .sec1 .CtextBox .text2{
+        font-size: 13px !important;
+    }
+  }

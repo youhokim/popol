@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap");
+
+#loading {
+/*  display: none !important;*/
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9dde1;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 100%;
+  z-index: 10;
+}
+.loContent {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 32%;
+  left: 50%px;
+  border-radius: 50%;
+  background: #d9dde1;
+  box-shadow: 7px 7px 14px #b8bcbf, -7px -7px 14px #fafeff;
+}
+.loContent .loBalls {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+}
+.LoStyle1 {
+  background: linear-gradient(225deg, #e8ecf1, #c3c7cb);
+  box-shadow: -5px 5px 10px #898b8e, 5px -5px 10px #ffffff;
+}
+.LoStyle2 {
+  background: linear-gradient(315deg, #e8ecf1, #c3c7cb);
+  box-shadow: -5px -5px 10px #898b8e, 5px 5px 10px #ffffff;
+}
+.LoStyle3 {
+  background: linear-gradient(45deg, #e8ecf1, #c3c7cb);
+  box-shadow: 5px -5px 10px #898b8e, -5px 5px 10px #ffffff;
+}
+.LoStyle4 {
+  background: linear-gradient(145deg, #e8ecf1, #c3c7cb);
+  box-shadow: 5px 5px 10px #898b8e, -5px -5px 10px #ffffff;
+}
+.Ball1 {
+  top: -57px;
+  left: 128px;
+}
+.Ball2 {
+  left: 287px;
+  top: 5px;
+}
+.Ball3 {
+  left: 320px;
+  top: 132px;
+}
+.Ball4 {
+  left: 287px;
+  top: 278px;
+}
+.Ball5 {
+  left: 128px;
+  top: 325px;
+}
+.Ball6 {
+  left: -27px;
+  top: 278px;
+}
+.Ball7 {
+  left: -59px;
+  top: 132px;
+}
+.Ball8 {
+  left: -27px;
+  top: 5px;
+}
+.loContent p {
+  color: #404040;
+  text-align: center;
+  line-height: 300px;
+  font-size: 200%;
+  font-family: "Dosis", sans-serif;
+}
+.on {
+  transform: scale(1.3);
+  transition: ease all 0.5s;
+}
+.loContent .Ball1.active {
+  top: -3017px !important;
+  left: -137px !important;
+  transition: ease all 3s;
+}
+.loContent .Ball2.active {
+  top: -3245px !important;
+  left: 3030px !important;
+  transition: ease all 3s;
+}
+.loContent .Ball3.active {
+  top: 250px !important;
+  left: 3132px !important;
+  transition: ease all 3s;
+}
+.loContent .Ball4.active {
+  top: 3240px !important;
+  left: 3235px !important;
+  transition: ease all 3s;
+}
+.loContent .Ball5.active {
+  top: 3137px !important;
+  left: 282px !important;
+  transition: ease all 3s;
+}
+.loContent .Ball6.active {
+  top: 3024px !important;
+  left: -3235px !important;
+  transition: ease all 3s;
+}
+.loContent .Ball7.active {
+  top: -17px !important;
+  left: -3132px !important;
+  transition: ease all 3s;
+}
+.loContent .Ball8.active {
+  top: -3026px !important;
+  left: -3030px !important;
+  transition: ease all 3s;
+}

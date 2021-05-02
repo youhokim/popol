@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@media only screen and (min-width:768px) and (max-width:1328px) {
+
+    /*main 시작*/
+    .Mcontent {
+      flex-direction: row;
+    }
+  
+    .FBOX {
+      justify-content: normal;
+    }
+  
+    .Mtxt {
+      font-size: 650%;
+      text-align: start;
+    }
+  
+    /*skill 시작*/
+    .Ssection.sec1 .chart {
+      height: 80%;
+  
+    }
+  
+    span.center p {
+      margin-right: 2px;
+      line-height: 30px;
+      font-size: 25px;
+    }
+    .Ssection.sec2 .SimgBOX{
+      width: 40%;
+    }
+    .Ssection.sec2 .StextBOX{
+      width: 45%;
+      margin-right: 40px;
+    }
+  }
+  
+  @media only screen and (min-width:768px) and (max-width:1092px) {
+    .Ssection.sec1 .chart {
+      height: 70%;
+    }
+    span.center p {
+      margin-right: 1px;
+      line-height: 20px;
+      font-size: 25px;
+    }
+  }
